@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './App.css';
+import {GlobalStyle} from "./GlobalStyle";
 import axios from "axios";
 import {ToDo} from "./components/ToDo";
 import {NewStatus} from "./components/ToDo_Status";
@@ -41,6 +41,7 @@ function App() {
 
   return (
       <>
+        <GlobalStyle/>
         <NewToDo newTodo={addTodo}/>
         <AllToDos todos={todos} advanceTodo={advanceTodo} deleteTodo={deleteTodo}/>
       </>

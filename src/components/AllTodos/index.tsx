@@ -14,7 +14,7 @@ export default function AllToDos(props: AllToDos) {
 
     return (
         <>
-            <ToDoList title="OPEN" todos={openTodos} advanceTodo={props.advanceTodo} deleteTodo={props.deleteTodo}/>
+            <ToDoList title={"OPEN"} todos={openTodos} advanceTodo={props.advanceTodo} deleteTodo={props.deleteTodo}/>
             <ToDoList title={"IN PROGRESS"} todos={inProgressTodos} advanceTodo={props.advanceTodo} deleteTodo={props.deleteTodo}/>
             <ToDoList title={"DONE"} todos={doneTodos} advanceTodo={props.advanceTodo} deleteTodo={props.deleteTodo}/>
         </>
