@@ -13,10 +13,10 @@ export default function AllToDos(props: AllToDos) {
     const doneTodos: ToDo[] = props.todos.filter((currentTodo) => currentTodo.status === "DONE")
 
     return (
-        <section className={"ToDo-List"}>
+        <>
             <ToDoList title="OPEN" todos={openTodos} advanceTodo={props.advanceTodo} deleteTodo={props.deleteTodo}/>
             <ToDoList title={"IN PROGRESS"} todos={inProgressTodos} advanceTodo={props.advanceTodo} deleteTodo={props.deleteTodo}/>
             <ToDoList title={"DONE"} todos={doneTodos} advanceTodo={props.advanceTodo} deleteTodo={props.deleteTodo}/>
-        </section>
+        </>
     )
 }

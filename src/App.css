@@ -6,53 +6,6 @@
     box-sizing: border-box;
 }
 
-.Add-ToDo {
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
-input {
-    margin-bottom: .5rem;
-    padding: 1rem 5rem;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 1.2rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.Add-Btn {
-    padding: 1rem 5rem;
-    border: none;
-    border-radius: 10px;
-    background-color: green;
-    text-align: center;
-    font-size: 1.2rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.ToDoCard {
-    margin: 1rem;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.Card-Title {
-    font-size: 1.5rem;
-    text-decoration: underline;
-}
-
-.Card-Text {
-    margin: 1rem;
-    font-size: 1.25rem;
-    list-style: none;
-}
-
 .Advance-Btn {
     margin: 1rem;
     padding: 1rem 5rem;
@@ -73,19 +26,4 @@ input {
     text-align: center;
     font-size: 1.2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.Progress-Card {
-    margin: 2rem 1rem;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.ToDo-List {
-    font-size: 1.5rem;
-    font-weight: bold;
 }
