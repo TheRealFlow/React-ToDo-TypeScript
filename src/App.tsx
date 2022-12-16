@@ -3,8 +3,8 @@ import './App.css';
 import axios from "axios";
 import {ToDo} from "./components/ToDo";
 import {NewStatus} from "./components/ToDo_Status";
-import NewToDo from "./components/New_ToDo";
-import AllToDos from "./components/All_ToDos";
+import NewToDo from "./components/NewToDo";
+import AllToDos from "./components/AllTodos";
 
 function App() {
   const [todos, setTodos] = useState<ToDo[]>([]);

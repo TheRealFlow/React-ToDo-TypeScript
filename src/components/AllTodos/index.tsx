@@ -1,5 +1,5 @@
-import {ToDo} from "./ToDo";
-import ToDoList from "./ToDo_List";
+import {ToDo} from "../ToDo";
+import ToDoList from "../ToDoList";
 
 type AllToDos = {
     todos: ToDo[],
