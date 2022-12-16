@@ -22,7 +22,7 @@ export default function ToDoList(props: ToDoList) {
 }
 
 const ProgressCard = styled.section`
-  margin: 2rem 1rem;
+  margin: 3.5rem 1rem;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,8 @@ const ProgressCard = styled.section`
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   h2 {
-    font-size: 2rem;
+    margin: 1rem;
+    font-size: 2.25rem;
     text-decoration: underline;
     font-family: "American Typewriter";
   }
